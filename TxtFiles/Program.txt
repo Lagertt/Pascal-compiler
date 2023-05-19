@@ -1,0 +1,27 @@
+program test
+
+var x, y: integer;
+    b: boolean;
+    c: char; 
+    
+
+begin      
+
+    read(y);
+    x := 7 - 2;
+    writeln('y = ', y);  
+    writeln('x = ', x); 
+    
+    writeln('');
+    
+    y := x + 10;
+    x := 4 - y;
+
+    writeln('x = ', x); 
+    writeln('y = ', y);
+    
+   // read(b, c);
+    //writeln('b = ', b); 
+    //writeln('c = ', c); 
+
+end.  
